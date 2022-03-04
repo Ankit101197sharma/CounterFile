@@ -1,0 +1,99 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aqua;
+    }
+    .cont {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: violet;
+    }
+    .buttonStyle {
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 70px;
+    margin-top: 100px;
+    }
+    .buttonStyle1 {
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: yellow;
+        color: white;
+        margin-left: 70px;
+        margin-top: 100px;
+        }
+        .buttonStyle2 {
+            border-radius: 8px;
+            font-size: 20px;
+            background-color: red;
+            color: white;
+            margin-left: 70px;
+            margin-top: 100px;
+            }
+            .buttonStyle3 {
+                border-radius: 8px;
+                font-size: 20px;
+                background-color: green;
+                color: white;
+                margin-left: 70px;
+                margin-top: 100px;
+                }
+                .buttonStyle4 {
+                    border-radius: 8px;
+                    font-size: 20px;
+                    background-color: pink;
+                    color: white;
+                    margin-left: 70px;
+                    margin-top: 100px;
+                    }
+
+h1{
+    padding: 50px;
+} */
+
+.main_div{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #badc58; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: white;
+    background-color: brown;
+    width: 100%;
+}
+.center_div{
+    width:25%;
+    height:60vh;
+    background-color: black;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5) ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    min-height: 40px;
+    border-radius: 5%;
+    border-color: transparent;
+    background-color: #30336b;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.btn_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
